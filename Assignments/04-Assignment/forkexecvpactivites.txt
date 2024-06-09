@@ -1,0 +1,18 @@
+Parent pid: 19955to Child Process No: 0
+Sent Message: sum
+Child pid: 19956 Child Process No: 0 Recieved Message: sum
+Parent pid: 19955to Child Process No: 1
+Sent Message: average
+Child pid: 19956 Child Process No: 0execvp(./calculate, ./calculate,randomnumber.txt,NULL
+Child pid: 19957 Child Process No: 1 Recieved Message: average
+Child pid: 19957 Child Process No: 1execvp(./calculate, ./calculate,randomnumber.txt,NULL
+Parent pid: 19955to Child Process No: 2
+Sent Message: greatest
+Child pid: 19958 Child Process No: 2 Recieved Message: greatest
+Child pid: 19958 Child Process No: 2execvp(./calculate, ./calculate,randomnumber.txt,NULL
+Parent pid: 19955to Child Process No: 3
+Sent Message: least
+Parent pid: 19955 Start - waiting for all display answer file children to finish
+Child pid: 19959 Child Process No: 3 Recieved Message: least
+Child pid: 19959 Child Process No: 3execvp(./calculate, ./calculate,randomnumber.txt,NULL
+Parent pid: 19955 Start - waiting for all display answer file children to finish

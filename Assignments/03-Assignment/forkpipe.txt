@@ -1,0 +1,25 @@
+{cslinux1:~/assign03} ./forkpipe 2
+
+
+In Parent: Write to pipe getQuoteMessage: Get Quotes
+In Child : Read from pipe pipeParentWriteChildMessage read Message: Get Quote
+In Child : Write to pipe pipeParentReadChildMessage sent Message:
+“If you have not done things worthy of being written about, at least write things worthy of being read.” ~Giacomo Casanova
+
+In Parent Read from Pipe pipeParentReadChildMessage read Message
+“If you have not done things worthy of being written about, at least write things worthy of being read.” ~Giacomo Casanova
+
+------------------------------------------
+In Parent: Write to pipe getQuoteMessage: Get Quotes
+In Child : Read from pipe pipeParentWriteChildMessage read Message: Get Quote
+In Child : Write to pipe pipeParentReadChildMessage sent Message:
+“Go where the silence is and say something.” ~Amy Goodman
+
+In Parent Read from Pipe pipeParentReadChildMessage read Message
+“Go where the silence is and say something.” ~Amy Goodman
+
+------------------------------------------
+In Parent write to pipe ParentWriteChildMessage sent Message Exit
+Parent Done
+In Child : Read from pipe pipeParentWriteChildMessage read Message: Exit
+Child Done

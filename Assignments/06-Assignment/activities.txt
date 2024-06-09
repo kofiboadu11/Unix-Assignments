@@ -1,0 +1,54 @@
+{cslinux1:~/assign06} ./sockserver &
+[1] 20934
+{cslinux1:~/assign06} ./sockclient
+
+
+Try to guess a number between 1 and 100
+
+Current Try Number : 1
+Enter number guess :
+
+7
+
+Server replt :
+
+The number is greater than : 7
+
+Current Try Number : 2
+Enter number guess :
+
+30
+
+Server replt :
+
+The number is greater than : 30
+
+Current Try Number : 3
+Enter number guess :
+
+90
+
+Server replt :
+
+The number is less than : 90
+
+Current Try Number : 4
+Enter number guess :
+
+67
+
+Server replt :
+
+The number is greater than : 67
+
+Current Try Number : 5
+Enter number guess :
+
+70
+
+Server replt :
+
+YouWin !! The number is : 70
+
+Client disconnected
+{cslinux1:~/assign06}
